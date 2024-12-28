@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pagination</title>
+    <h1>Let us learn about Pagination Today!</h1>
+    <h5>In web development, "pagination" is a technique where large amounts of content are divided into smaller, manageable
+    pages, allowing users to navigate through information by clicking on numbered pages or "next" and "previous" buttons,
+    essentially preventing users from being overwhelmed by a massive amount of data on a single page.
+
+Example of Pagination ios given below:</h5>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Pagination </h2>
+        <p> Fall in love with coding</p>
+        <!-- Declare the pagination class -->
+        <ul class="pagination">
+            <!-- Declare the item in the group -->
+            <li class="page-item">
+                <!-- Declare the link of the item --> <a class="page-link" href="#">Previous</a>
+            </li>
+            <!-- Rest of the pagination items -->
+            <li class="page-item">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+
+
+<h1>ANother pagination with custome color is given below:
+
+    <h5>anothen thin gis that you have to hover so you can see the colour. Just 2 is exception so ypou  can find other colors which and listed side by side.</h5>
+    <!DOCTYPE html>
+    <html>
+    
+    <head>
+        <title>Pagination with Colors</title>
+        <style>
+            /* Pagination container */
+            .pagination {
+                display: flex;
+                list-style-type: none;
+                padding: 0;
+                margin: 20px 0;
+            }
+    
+            /* Pagination links */
+            .pagination a {
+                display: block;
+                padding: 10px 15px;
+                margin: 0 5px;
+                text-decoration: none;
+                color: white;
+                background-color: red
+                /* Default background color */
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+    
+            /* Hover effect for links */
+            .pagination a:hover {
+                background-color: yellow
+                /* Darker blue on hover */
+            }
+    
+            /* Active page */
+            .pagination a.active {
+                background-color: #28a745;
+                /* Green for active */
+                color: white;
+            }
+    
+            /* Disabled page (if needed) */
+            .pagination a.disabled {
+                background-color: #6c757d;
+                /* Gray for disabled */
+                color: white;
+                pointer-events: none;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h2>Pagination Example</h2>
+        <ul class="pagination">
+            <li><a href="#" class="disabled">«</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#" class="active">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">»</a></li>
+        </ul>
+    </body>
+    
+    </html>
+</h1>
+
+
+<h4>Hope you enjoyed</h4>
